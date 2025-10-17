@@ -76,19 +76,21 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Hotel Paradise | Luxury and Comfort",
-  description: "Experience unparalleled luxury at Hotel Paradise, your perfect getaway.",
+  title: "Hotel Luxor | Luxury at its finest",
+  description: "Discover elegance and comfort at Hotel Luxor. Book your stay at the best hotel in the city.",
   openGraph: {
-    title: "Hotel Paradise | Luxury and Comfort",
-    description: "Experience unparalleled luxury at Hotel Paradise, your perfect getaway.",
-    images: [{ url: "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" }],
-    type: "website"
+    title: "Hotel Luxor | Luxury at its finest",
+    description: "Discover elegance and comfort at Hotel Luxor. Book your stay at the best hotel in the city.",
+    images: [{url: "https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Hotel Luxor lobby"}]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hotel Paradise | Luxury and Comfort",
-    description: "Experience unparalleled luxury at Hotel Paradise, your perfect getaway.",
-    images: ["https://images.pexels.com/photos/1001965/pexels-photo-1001965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"]
+    title: "Hotel Luxor | Luxury at its finest",
+    description: "Discover elegance and comfort at Hotel Luxor. Book your stay at the best hotel in the city."
+  },
+  robots: {
+    index: true,
+    follow: true
   }
 };
 
